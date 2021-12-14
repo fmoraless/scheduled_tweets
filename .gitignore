@@ -46,3 +46,4 @@ bin/spring
 bin/webpack
 bin/webpack-dev-server
 bin/yarn
+*.iml
