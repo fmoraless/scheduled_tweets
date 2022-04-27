@@ -16,5 +16,12 @@
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/schedule_tweets.sqlite3</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="SQLite [2]" uuid="743e7cd2-198f-4dd7-992c-cd04b3aea45f">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/schedule_tweets.sqlite3</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
