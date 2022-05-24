@@ -87,6 +87,7 @@ GEM
     equalizer (0.0.11)
     erubi (1.10.0)
     ffi (1.15.4)
+    ffi (1.15.4-x64-mingw32)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
@@ -122,11 +123,17 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.6.1)
     minitest (5.14.4)
     msgpack (1.4.2)
     multipart-post (2.1.1)
     naught (1.1.0)
     nio4r (2.5.8)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x64-mingw32)
+      racc (~> 1.4)
     nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
     oauth (0.5.8)
@@ -195,6 +202,8 @@ GEM
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
       ffi (~> 1.9)
+    sassc (2.4.0-x64-mingw32)
+      ffi (~> 1.9)
     sassc-rails (2.1.2)
       railties (>= 4.0.0)
       sassc (>= 2.0)
@@ -239,9 +248,12 @@ GEM
       simple_oauth (~> 0.3.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2022.1)
+      tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8.1)
+    unf_ext (0.0.8.1-x64-mingw32)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -264,6 +276,7 @@ GEM
     zeitwerk (2.5.1)
 
 PLATFORMS
+  ruby
   x64-mingw32
   x86_64-linux
 
