@@ -1,7 +1,7 @@
 class TweetJob < ApplicationJob
   queue_as :default
 
-  def perform(tweet)
+  def perform(tweet)  
     return if tweet.published?
 
     # Rescheduled a tweet to the future
